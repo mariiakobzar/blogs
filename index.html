@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, ifnitial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Blog</title>
+  <script defer src="js/all.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style/normalize.css">
+  <link rel="stylesheet" href="style/app.css">
+</head>
+
+<body>
+  <header class="header">
+
+    <div class="container">
+      <nav>
+        <ul class="menu">
+          <li class="menu__item">
+            <a href="#">Home</a>
+          </li>
+          <li class="menu__item">
+            <a href="#">About</a>
+          </li>
+          <li class="menu__item">
+            <a href="#">Blog</a>
+          </li>
+          <li class="menu__item">
+            <a href="#">Portfolio</a>
+          </li>
+          <li class="menu__item">
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1 class="title">Blogs</h1>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <section class="portfolio">
+      <div class="container">
+        <nav>
+          <ul class="portfolio-menu menu">
+            <li class="portfolio-menu__item menu__item">
+              <a href="#" data-filter=".gallery__item">All</a>
+            </li>
+            <li class="portfolio-menu__item menu__item">
+              <a href="#" data-filter=".gallery__design">UI/UX Design</a>
+            </li>
+            <li class="portfolio-menu__item menu__item">
+              <a href="#" data-filter=".gallery__branding">BRANDING</a>
+            </li>
+            <li class="portfolio-menu__item menu__item">
+              <a href="#" data-filter=".gallery__illustration">ILLUSTRATION</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="gallery">
+
+          <div class="gallery__item gallery__item--height1 gallery__branding">
+            <img src="img/gallery1.png" alt="#">
+          </div>
+
+          <div class="gallery__item gallery__item gallery__design">
+            <img src="img/gallery2.png" alt="#">
+          </div>
+
+          <div class="gallery__item gallery__item gallery__branding">
+            <img src="img/gallery3.png" alt="#">
+          </div>
+
+          <div class="gallery__item gallery__item gallery__branding">
+            <img src="img/gallery4.png" alt="#">
+          </div>
+
+          <div class="gallery__item gallery__item--height1 gallery__illustration">
+            <img src="img/gallery5.png" alt="#">
+          </div>
+
+          <div class="gallery__item gallery__item gallery__illustration">
+            <img src="img/gallery6.png" alt="#">
+          </div>
+
+          <div class="gallery__item gallery__item gallery__branding">
+            <img src="img/gallery7.png" alt="#">
+          </div>
+
+          <div class="gallery__item gallery__item gallery__design">
+            <img src="img/gallery8.png" alt="#">
+          </div>
+
+          <div class="gallery__item gallery__item--height1 gallery__branding">
+            <img src="img/gallery9.png" alt="#">
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section class="clients">
+      <div class="container">
+        <h1 class="title">My clients</h1>
+        <div class="clients-gallery">
+          <img src="img/logo-envato.png" alt="Envato">
+          <img src="img/logo-sundance.png" alt="Sundance">
+          <img src="img/logo-slack.png" alt="Slack">
+          <img src="img/logo-airbnb.png" alt="Airbnb">
+          <img src="img/logo-forbes.png" alt="Forbes">
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <div class="container">
+        <h1 class="title">Contact info</h1>
+        <div class="contact-form">
+          <h2>Сontact Form</h2>
+          <form class="form">
+            <div class="form-id">
+              <input type="text" placeholder="Full Name">
+              <input type="email" placeholder="Email@example.com">
+            </div>
+            <textarea rows="4" placeholder="Type messsge Here"></textarea>
+            <input type="submit" value="Sent" class="form-btn">
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-contact">
+        <div class="footer__email">
+          <p>Email</p>
+          <a href="mailto:steve.fruits@email.com">steve.fruits@email.com</a>
+        </div>
+        <div class="footer__phone">
+          <p>Phone</p>
+          <a href="tel:+880 2544 658 256">+880 2544 658 256</a>
+        </div>
+        <div class="footer__addres">
+          <p>Addres</p>
+          <address>125/A, CA Commercial Area,</br>California, USA</address>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>© Kross. All Right Reserved 2018.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+  <!-- <script src="js/slick.min.js"></script> -->
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+
+</html>
